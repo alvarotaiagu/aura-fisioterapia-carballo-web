@@ -1,0 +1,4 @@
+node_modules/
+*-src.jpg
+.DS_Store
+Thumbs.db

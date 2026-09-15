@@ -1,0 +1,116 @@
+{
+  "ok": true,
+  "checks": [
+    {
+      "name": "sin errores JS en carga",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "longtasks durante la intro del hero (>50ms)",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "aviso de cookies visible en primera visita",
+      "pass": true
+    },
+    {
+      "name": "botón \"Entendido\" oculta el aviso (display none real)",
+      "pass": true
+    },
+    {
+      "name": "el aviso no vuelve tras recargar",
+      "pass": true
+    },
+    {
+      "name": "CTAs del hero y cabecera reciben el click",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "sin zonas muertas sobre el hero (canvas/capas decorativas)",
+      "pass": true,
+      "detail": "0/253 muestras"
+    },
+    {
+      "name": "índice de cuerpo: flecha abajo selecciona y enfoca \"hombro\"",
+      "pass": true,
+      "detail": "{\"selected\":\"zona-hombro\",\"focused\":\"zona-hombro\",\"title\":\"Hombro\"}"
+    },
+    {
+      "name": "índice de cuerpo: tecla Fin va a \"tobillo\"",
+      "pass": true,
+      "detail": "zona-tobillo"
+    },
+    {
+      "name": "foco visible en la zona activa",
+      "pass": true,
+      "detail": "solid"
+    },
+    {
+      "name": "sin iframe de Google antes del consentimiento",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "name": "el mapa se carga solo al pulsar",
+      "pass": true,
+      "detail": "https://www.google.com/maps?q=AURA+Carballo%2C+R%C3%BAa+Baixa+52%2C+15100+Carballo%2C+A+Coru%C3%B1a&z=17&output=embed"
+    },
+    {
+      "name": "longtasks durante el scroll completo (>100ms)",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "sin errores JS tras interactuar",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "reduced-motion: canvas no montado, sin Lenis, h1 visible",
+      "pass": true,
+      "detail": "{\"canvas\":false,\"lenis\":false,\"h1Visible\":\"1\"}"
+    },
+    {
+      "name": "móvil 390: sin scroll horizontal",
+      "pass": true,
+      "detail": "0px"
+    },
+    {
+      "name": "móvil 360: sin scroll horizontal",
+      "pass": true,
+      "detail": "0px"
+    },
+    {
+      "name": "móvil: sin errores JS",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "longtasks": {
+    "load": [
+      {
+        "d": 134,
+        "t": 153
+      }
+    ],
+    "intro": [],
+    "scroll": []
+  },
+  "screenshots": [
+    "C:\\Users\\alvar\\Desktop\\WEBS NEGOCIOS\\aura-fisioterapia-carballo-web\\screenshots\\desktop-inicio.png",
+    "C:\\Users\\alvar\\Desktop\\WEBS NEGOCIOS\\aura-fisioterapia-carballo-web\\screenshots\\desktop-cuerpo.png",
+    "C:\\Users\\alvar\\Desktop\\WEBS NEGOCIOS\\aura-fisioterapia-carballo-web\\screenshots\\desktop-servicios-01.png",
+    "C:\\Users\\alvar\\Desktop\\WEBS NEGOCIOS\\aura-fisioterapia-carballo-web\\screenshots\\desktop-servicios-02.png",
+    "C:\\Users\\alvar\\Desktop\\WEBS NEGOCIOS\\aura-fisioterapia-carballo-web\\screenshots\\desktop-servicios-03.png",
+    "C:\\Users\\alvar\\Desktop\\WEBS NEGOCIOS\\aura-fisioterapia-carballo-web\\screenshots\\desktop-servicios-04.png",
+    "C:\\Users\\alvar\\Desktop\\WEBS NEGOCIOS\\aura-fisioterapia-carballo-web\\screenshots\\desktop-servicios-05.png",
+    "C:\\Users\\alvar\\Desktop\\WEBS NEGOCIOS\\aura-fisioterapia-carballo-web\\screenshots\\desktop-horario.png",
+    "C:\\Users\\alvar\\Desktop\\WEBS NEGOCIOS\\aura-fisioterapia-carballo-web\\screenshots\\desktop-opiniones.png",
+    "C:\\Users\\alvar\\Desktop\\WEBS NEGOCIOS\\aura-fisioterapia-carballo-web\\screenshots\\desktop-equipo.png",
+    "C:\\Users\\alvar\\Desktop\\WEBS NEGOCIOS\\aura-fisioterapia-carballo-web\\screenshots\\desktop-contacto.png",
+    "C:\\Users\\alvar\\Desktop\\WEBS NEGOCIOS\\aura-fisioterapia-carballo-web\\screenshots\\desktop-site-footer.png"
+  ]
+}
