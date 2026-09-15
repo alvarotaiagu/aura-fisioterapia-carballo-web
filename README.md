@@ -28,22 +28,37 @@ amarillo) y una sola fisioterapeuta nombrada. **No** es una web actual. Hay
 además Instagram `@auracarballo` y Facebook `AURACarballo.sc`. Nada de eso se
 ha volcado a la web nueva sin confirmar (ver "Datos que faltan").
 
+### Fuentes reales facilitadas después (15-09-2026)
+- Bio oficial de [Facebook](https://www.facebook.com/AURACarballo.sc/) e
+  [Instagram](https://www.instagram.com/auracarballo/) (idéntica en ambas):
+  `Fisio&Osteo · Suelo pélvico&hipo · ATM · Ecógrafo&Indiba&Ondas de choque ·
+  Pilates terapéutico&funcional · Entrenamiento embarazo&posparto · Talleres ·
+  📍Rúa Baixa 52, bajo. Carballo.` De ahí salen los 7 servicios. "hipo" se ha
+  leído como **hipopresivos** (interpretación, ver decisiones).
+- Tres reseñas de Google en captura de pantalla, usadas literalmente.
+
 ## Estructura (propia, no calcada de otras carpetas)
 
 1. **Hero** (`#inicio`): canvas de campo de aura alrededor del logo (partículas
    cálidas que orbitan y "respiran"), claim, CTA llamar + CTA cómo llegar,
    chip "abierto ahora" calculado en cliente.
 2. **Marquee** (madera/negro).
-3. **Índice de cuerpo** (`#cuerpo`): silueta con 7 zonas clicables
-   (`role="tablist"`, flechas/Inicio/Fin, `aria-live`), panel lateral con
-   "lo que suele traer a la gente" + tratamiento **[SERVICIO PENDIENTE]**.
-4. **Servicios** (`#servicios`): sticky stack de 5 paneles a pantalla completa
-   (negro / hueso / césped / madera / terroso), cinta kinesiológica que barre
-   al entrar, el panel anterior se encoge y se vela; raíl de puntos.
+3. **Índice de cuerpo** (`#cuerpo`): silueta con 9 zonas clicables
+   (mandíbula/ATM, cuello, hombro, codo y muñeca, lumbar, suelo pélvico,
+   cadera, rodilla, tobillo y pie; `role="tablist"`, flechas/Inicio/Fin,
+   `aria-live`), panel lateral con "lo que suele traer a la gente" y los
+   servicios reales de AURA que encajan en cada zona.
+4. **Servicios** (`#servicios`): sticky stack de **7 paneles** a pantalla
+   completa, uno por cada línea de la bio oficial de Facebook/Instagram
+   (Fisio&Osteo · Suelo pélvico&hipo · ATM · Ecógrafo&Indiba&Ondas de choque ·
+   Pilates terapéutico&funcional · Entrenamiento embarazo&posparto · Talleres),
+   cinta kinesiológica que barre al entrar, el panel anterior se encoge y se
+   vela; raíl de puntos.
 5. **Horario** (`#horario`): timeline semanal 8:00→23:00 con barras por día,
    marcador "ahora" (hora Europe/Madrid) y estado abierto/cerrado.
-6. **Reseñas** (`#opiniones`): 5,0 gigante + 76 reseñas reales; 3 tarjetas
-   **[RESEÑA PENDIENTE]**.
+6. **Reseñas** (`#opiniones`): 5,0 gigante + 76 reseñas reales; 3 reseñas
+   literales de Google facilitadas por el cliente, con el apellido abreviado
+   (Casandra G., Noa P., Bea C.).
 7. **Equipo** (`#equipo`): 3 fichas **[NOMBRE / TITULACIÓN / Nº / FOTO PENDIENTE]**.
 8. **Contacto** (`#contacto`): dirección, teléfono, horario, mapa por clic.
 9. **Footer** + diálogos de aviso legal, privacidad y cookies (con huecos fiscales marcados).
@@ -115,17 +130,16 @@ intro del hero y el scroll completo: **cero** longtasks > 50 ms.
 
 ## Datos que faltan (placeholders marcados en la web)
 
-- Servicios concretos (nombre + descripción de los 5 paneles, y el tratamiento
-  por zona en el índice de cuerpo). En canales propios aparecen, sin confirmar:
-  fisioterapia, osteopatía, suelo pélvico, ATM, ecografía, Indiba, ondas de
-  choque, pilates terapéutico, embarazo y posparto.
-- Textos de 3 reseñas reales de Google y nombre de quien las firma.
-- Equipo: nombres, titulaciones, números de colegiado y fotos. (La Wix antigua
-  nombra a "Lorena Cabeza Puñal, Col. 1613"; no se ha usado sin confirmar.)
+- Equipo: nombres completos, titulaciones, números de colegiado y fotos. Las
+  reseñas nombran a "Marta, especialista en ATM" y a "Lorena"; la Wix antigua,
+  a "Lorena Cabeza Puñal, Col. 1613". No se ha usado sin confirmar.
+- Las **descripciones** de cada servicio (2-3 frases) son redacción propia en
+  el tono de la casa a partir del nombre del servicio; revisar con la clínica.
 - Logo oficial en archivo.
 - Fotografía propia o generada (sustituye a la de ambiente).
 - Aviso legal: razón social, NIF, email de contacto, colegio profesional.
 - Precios (no hay ninguna sección de precios; añadir si se quiere).
+- Fechas de los talleres (se remite al teléfono y a redes).
 
 ## Estructura de archivos
 

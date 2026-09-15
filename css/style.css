@@ -402,6 +402,13 @@ address { font-style: normal; }
 .panel-c { background: var(--cesped-2); color: var(--hueso); }
 .panel-d { background: var(--madera); color: var(--negro); }
 .panel-e { background: var(--terroso); color: var(--hueso); }
+.panel-f { background: var(--arena); color: var(--tinta); }
+.panel-g { background: var(--negro-3); color: var(--hueso); }
+.panel-f .panel-strip { background: var(--cesped-2); }
+.panel-g .panel-strip { background: var(--madera); }
+.panel-a h3 em, .panel-c h3 em, .panel-e h3 em, .panel-g h3 em { font-style: italic; color: var(--madera); }
+.panel-b h3 em, .panel-f h3 em { font-style: italic; color: var(--terroso); }
+.panel-d h3 em { font-style: italic; color: var(--terroso-2); }
 .panel-b .panel-strip { background: var(--cesped-2); }
 .panel-c .panel-strip { background: var(--madera); }
 .panel-d .panel-strip { background: var(--terroso); }

@@ -92,8 +92,16 @@
   "longtasks": {
     "load": [
       {
-        "d": 134,
-        "t": 153
+        "d": 212,
+        "t": 7486
+      },
+      {
+        "d": 90,
+        "t": 7711
+      },
+      {
+        "d": 103,
+        "t": 7828
       }
     ],
     "intro": [],
@@ -107,6 +115,8 @@
     "C:\\Users\\alvar\\Desktop\\WEBS NEGOCIOS\\aura-fisioterapia-carballo-web\\screenshots\\desktop-servicios-03.png",
     "C:\\Users\\alvar\\Desktop\\WEBS NEGOCIOS\\aura-fisioterapia-carballo-web\\screenshots\\desktop-servicios-04.png",
     "C:\\Users\\alvar\\Desktop\\WEBS NEGOCIOS\\aura-fisioterapia-carballo-web\\screenshots\\desktop-servicios-05.png",
+    "C:\\Users\\alvar\\Desktop\\WEBS NEGOCIOS\\aura-fisioterapia-carballo-web\\screenshots\\desktop-servicios-06.png",
+    "C:\\Users\\alvar\\Desktop\\WEBS NEGOCIOS\\aura-fisioterapia-carballo-web\\screenshots\\desktop-servicios-07.png",
     "C:\\Users\\alvar\\Desktop\\WEBS NEGOCIOS\\aura-fisioterapia-carballo-web\\screenshots\\desktop-horario.png",
     "C:\\Users\\alvar\\Desktop\\WEBS NEGOCIOS\\aura-fisioterapia-carballo-web\\screenshots\\desktop-opiniones.png",
     "C:\\Users\\alvar\\Desktop\\WEBS NEGOCIOS\\aura-fisioterapia-carballo-web\\screenshots\\desktop-equipo.png",

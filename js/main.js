@@ -227,7 +227,8 @@
       });
     });
     chips.forEach((c) => c.addEventListener("click", () => render(c.dataset.zona, false)));
-    render(tabs[0].dataset.zona, false);
+    const initial = tabs.find((t) => t.getAttribute("aria-selected") === "true") || tabs[0];
+    render(initial.dataset.zona, false);
   })();
 
   /* ---------- Reveals (IntersectionObserver, sin GSAP para lo simple) ---------- */
